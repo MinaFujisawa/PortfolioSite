@@ -154,7 +154,7 @@ nav .navbar-toggle .icon-bar {
 #skills span{
 	background: #e8cfcb;
     padding: 2px;
-    font-size: 14px;
+    /*font-size: 14px;*/
 }
 #skills div:first-child{
 	margin-bottom: 30px;
