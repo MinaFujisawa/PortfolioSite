@@ -8,8 +8,8 @@
 
 body {
 	font-family: 'Lato', Helvetica, sans-serif;
-	background-color: #F5EAE8;
-	color: #494242;
+	/*background-color: #CE9F9F;*/
+	color: #4d4d4d;
 }
 
 /*not selector is for prevention from overwrap animation of a.thumbnail */
@@ -92,14 +92,14 @@ button {
     -webkit-transition: all 100ms linear !important;
 }
 .navbar-fixed-top h1.logo a svg{
-    width: 52px;
-    fill: #283562;
+    width: 62px;
+    fill: #f44e4e;
 }
    
 
 @media (max-width: 480px) {
     .navbar-fixed-top h1.logo a svg{
-        width: 38px;
+        width: 42px;
     }
 }
 .js_smaller h1.logo a svg{
@@ -166,7 +166,7 @@ for toggle button
 #btn_toggle span:before {
     width: 30px;
     height: 5px;
-    background-color: #283562;
+    background-color: #f44e4e;
     transition: all 0.3s;
     backface-visibility: hidden;
 }
@@ -219,9 +219,9 @@ for toggle button
     -webkit-transition: visibility 10s ease-out;
 
 
-    box-shadow:0 5px 42px -10px #d2a9a5;
-    -moz-box-shadow:0 5px 42px -10px #d2a9a5;
-    -webkit-box-shadow:0 5px 42px -10px #d2a9a5;
+    box-shadow:0 5px 42px -10px #f2f2f2;
+    -moz-box-shadow:0 5px 42px -10px #f2f2f2;
+    -webkit-box-shadow:0 5px 42px -10px #f2f2f2;
 } 
 .nav_menu nav ul {
     margin: 0;
@@ -246,13 +246,13 @@ for toggle button
     padding: 0 0 7px 0;
 }*/
 .nav_menu nav ul li a{
-    color: #283562;
+    color: #f44e4e;
     display: inline;
 
 }
 
 .nav_menu nav ul li a::after {
-    background: #283562;
+    background: #f44e4e;
     position: absolute;
     top: 100%;
     left: 0;
@@ -288,7 +288,7 @@ header nav .nav_menu .nav_sns_links{
 }
 header nav .nav_menu .nav_sns_links a{
     margin: 5px;
-    color: #283562;
+    color: #f44e4e;
     font-size: 25px;
  }
 header nav .nav_menu .nav_sns_links a i{
@@ -364,7 +364,7 @@ footer .sns_links li a:before{
     position: absolute;
     bottom: 0;
     left: 50%;
-	background: #283562;
+	background: #f44e4e;
 	-webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -373,9 +373,9 @@ footer .sns_links li a:before{
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
 
-    box-shadow:2px 2px 18px 0px #d2a9a5;
-	-moz-box-shadow:2px 2px 18px 0px #d2a9a5;
-	-webkit-box-shadow:2px 2px 18px 0px #d2a9a5;
+    box-shadow:2px 2px 18px 0px #f2f2f2;
+	-moz-box-shadow:2px 2px 18px 0px #f2f2f2;
+	-webkit-box-shadow:2px 2px 18px 0px #f2f2f2;
 
 }
 footer .sns_links li a:hover{
@@ -390,7 +390,7 @@ footer .sns_links li .fa{
     margin-top: 16px;
 }
 footer small {
-    color: #CE9F9F;
+    color: #f44e4e;
     letter-spacing: 0.2em;
     font-weight: 600;
 }
