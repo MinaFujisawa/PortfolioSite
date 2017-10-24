@@ -141,8 +141,11 @@ nav .navbar-toggle .icon-bar {
 #skills{
 	margin-top: 50px;
 }
+#skills div {
+    margin-bottom: 30px;
+}
 #skills h2{
-	font-size: 1em;
+	font-size: 14px;
 	text-align: left;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -151,14 +154,14 @@ nav .navbar-toggle .icon-bar {
 #skills ul{
 	margin: 0;
 }
-/*#skills span{
-	background: #e8cfcb;
-    padding: 2px;
-}*/
-
-#skills div:first-child{
-	margin-bottom: 30px;
+#skills strong{
+	background: #ffd4d4;
+    padding: 2px 4px;
+    margin-right: 4px;
+    font-size: 14px;
+    font-weight: 500;
 }
+
 
 #values {
 	text-align: center;
