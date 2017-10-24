@@ -93,7 +93,7 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    background: #f44e4e;
+    background: #f95757;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -130,7 +130,7 @@
 }
 
 nav .navbar-toggle .icon-bar {
-	background: #f44e4e;
+	background: #f95757;
 	box-shadow:3px 3px 16px 0px #f1eaea;
 	-moz-box-shadow:3px 3px 16px 0px #f1eaea;
 	-webkit-box-shadow:3px 3px 16px 0px #f1eaea;
@@ -238,7 +238,7 @@ nav .navbar-toggle .icon-bar {
     left: 0;
     width: 100%;
     height: 100%;
-    color: #f44e4e;
+    color: #f95757;
     opacity: 1;
 }*/
 figcaption:before {
@@ -247,7 +247,7 @@ figcaption:before {
     position: absolute;
     position: absolute;
     background: #fff;
-    border: #f44e4e solid 10px;
+    border: #f95757 solid 10px;
     top: 0;
     right: 0;
     bottom: 0;
@@ -269,7 +269,7 @@ figcaption:before {
     position: absolute;
     background: #fff;
     opacity: .9;
-    border: #f44e4e solid 10px;
+    border: #f95757 solid 10px;
     top: 0;
     right: 0;
     bottom: 0;
@@ -278,7 +278,7 @@ figcaption:before {
 }
 
 #works figure figcaption > div{
-    color: #f44e4e;
+    color: #f95757;
     position: absolute;
     width: 100%;
     top: 50%;
@@ -342,7 +342,7 @@ figcaption:before {
 #contact .button a{
     display: inline-block;
     width: 18rem;
-	background: #f44e4e;
+	background: #f95757;
     color: #fff;
     line-height: 30px;
     padding: 10px 20px;

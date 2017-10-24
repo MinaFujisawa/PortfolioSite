@@ -93,7 +93,7 @@ button {
 }
 .navbar-fixed-top h1.logo a svg{
     width: 62px;
-    fill: #f44e4e;
+    fill: #f95757;
 }
    
 
@@ -166,7 +166,7 @@ for toggle button
 #btn_toggle span:before {
     width: 30px;
     height: 5px;
-    background-color: #f44e4e;
+    background-color: #f95757;
     transition: all 0.3s;
     backface-visibility: hidden;
 }
@@ -246,13 +246,13 @@ for toggle button
     padding: 0 0 7px 0;
 }*/
 .nav_menu nav ul li a{
-    color: #f44e4e;
+    color: #f95757;
     display: inline;
 
 }
 
 .nav_menu nav ul li a::after {
-    background: #f44e4e;
+    background: #f95757;
     position: absolute;
     top: 100%;
     left: 0;
@@ -288,7 +288,7 @@ header nav .nav_menu .nav_sns_links{
 }
 header nav .nav_menu .nav_sns_links a{
     margin: 5px;
-    color: #f44e4e;
+    color: #f95757;
     font-size: 25px;
  }
 header nav .nav_menu .nav_sns_links a i{
@@ -364,7 +364,7 @@ footer .sns_links li a:before{
     position: absolute;
     bottom: 0;
     left: 50%;
-	background: #f44e4e;
+	background: #f95757;
 	-webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -390,7 +390,7 @@ footer .sns_links li .fa{
     margin-top: 16px;
 }
 footer small {
-    color: #f44e4e;
+    color: #f95757;
     letter-spacing: 0.2em;
     font-weight: 600;
 }
