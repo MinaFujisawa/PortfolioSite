@@ -30,14 +30,42 @@
 </head>
 <body>
 
-<div id="header"></div>
+<header>
+	<nav class="navbar navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<h1 class="navbar-brand page-scroll logo">
+					<a href="/portfolio/html/" class="hover"><svg viewBox="0 0 183 177" width="100" xmlns="http://www.w3.org/2000/svg" class="hover"><path d="M183,0v177h-72V0H183z M0,0v177h48.7L48,83.9l31,31.6V47.7L29.5,0H0z"/></svg></a>
+				</h1>
+	            <button type="button" id=btn_toggle class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                <span></span>
+	            </button>
+			</div>
+
+		</div><!--  end container -->
+        <div class="navbar-collapse nav_menu" id="bs-example-navbar-collapse-1">
+        	<nav>
+	            <ul class="nav navbar-nav navbar-right">
+	                <li><a href="/portfolio/html/#about">ABOUT ME</a></li>
+					<li><a href="/portfolio/html/#works">RECENT WORKS</a></li>
+					<li><a href="/portfolio/html/#contact">CONTACT</a></li>
+	            </ul>
+            </nav>
+			<ul class="list-inline nav_sns_links">
+				<li><a href="https://www.facebook.com/fujisawamina" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://github.com/MinaFujisawa" target="_blank"><i class="fa fa-github"></i><img src="" alt=""></a></li>
+				<li><a href="https://www.linkedin.com/in/mina-fujisawa-a73273107/" target="_blank"><i class="fa fa-linkedin"></i><img src="" alt=""></a></li>
+			</ul>
+        </div>
+	</nav>
+</header>
 <section class="full_screen js_full_screen">
 	<div class="container">
 		<div class="home_text">
 			<h3 class="js-scroll">Hello,</h3>
 			<h2 class="js-scroll">I am a mobile developer &amp; UI Designer</h2>
 		</div>
-		<div class="scroll arrow animated bounce"><a href="#about"><i class="fa fa-angle-down scroll_icon"></i></a></div>
+		<div class="scroll arrow animated bounce"><a href="#about" class="hover"><i class="fa fa-angle-down scroll_icon"></i></a></div>
 	</div>
 </section>
 
@@ -170,7 +198,7 @@
 	
 <section id="works">
 	<div class="container">
-		<h1>RECENT WORKS</h1>
+		<h1 class="js_scroll">RECENT WORKS</h1>
 		<ul class="row list-unstyled">
 			<li class="col-md-4 col-sm-6 js_scroll">
 				<figure>
@@ -262,18 +290,28 @@
 
 <section id="contact">
 	<div class="container">
-		<h1>CONTACT</h1>
-		<p class="js_scroll">I’m currently looking for internship.<br>
+		<h1 class="js_scroll">CONTACT</h1>
+		<p class="js_scroll">I’m currently looking for a co-op or internship.<br>
 		Send me an Email and I will get back to you as soon as possible!</p>
 		<div class="js_scroll button"><a href="mailto:m.fujisawa.37@gmail.com">SEND AN EMAIL</a></div>
 	</div><!-- end contact container -->
 </section>
 </div> <!-- end #main_contents -->
-<div id="footer"></div>
+<footer class="js_scroll">
+	<ul class="list-inline sns_links">
+		<li><a href="https://www.facebook.com/fujisawamina" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		<li><a href="https://github.com/MinaFujisawa" target="_blank"><i class="fa fa-github"></i></a></li>
+		<li><a href="https://www.linkedin.com/in/mina-fujisawa-a73273107/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+　
+	</ul>
+	<small>&copy; MINA FUJISAWA 2017</small>
+</footer>
 </section>
 
 <!-- main -->
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/header.js"></script>
 <!-- Bootstrap core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- scroll -->
