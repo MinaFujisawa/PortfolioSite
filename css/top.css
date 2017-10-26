@@ -139,12 +139,13 @@ nav .navbar-toggle .icon-bar {
     margin-top: 100px;
 }
 #skills{
-	margin-top: 50px;
+	margin-top: 40px;
 }
 #skills div {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 #skills h2{
+    margin-bottom: 20px;
 	font-size: 14px;
 	text-align: left;
 	font-weight: bold;
@@ -154,12 +155,17 @@ nav .navbar-toggle .icon-bar {
 #skills ul{
 	margin: 0;
 }
-#skills strong{
-	background: #ffd4d4;
-    padding: 2px 4px;
-    margin-right: 4px;
-    font-size: 14px;
-    font-weight: 500;
+#skills .skill_item p {
+    margin-bottom: 0px;
+}
+#skills .skill_item span{
+    display: inline-block;
+    background-color: #f2e0e0;
+    height: 10px;
+    width: 10px;
+}
+#skills .skill_item span.fill {
+    background-color: #f95757;
 }
 
 
