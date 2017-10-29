@@ -92,69 +92,54 @@
 					</section> -->
 					
 
-					<section>
+				<section>
 
-						<div class="row description">
-							<div class="col-md-6">
-								<h1 class="js_scroll">ABOUT</h1>
-								<p class="js_scroll">Puyo Puyo is a series of tile-matching video games.</p>
-							</div>
-							<div class="col-md-6">
-								<h1 class="js_scroll">CHALLANGE</h1>
-								<p class="js_scroll"> LATER!!!! </p>
-							</div>
+					<div class="row description">
+						<div class="col-md-6">
+							<h1 class="js_scroll">ABOUT</h1>
+							<p class="js_scroll">Puyo Puyo is a series of tile-matching video games. I made it into my own commandline version game</p>
 						</div>
+						<div class="col-md-6">
+							<h1 class="js_scroll">CHALLANGE</h1>
+							<p class="js_scroll">Making logic of <a href="#section2">chain reaction</a> was the hardest part. For better UX, I used sleepForTimeInterval thus user can tell clearly what's going on in the game.</p>
+						</div>
+					</div>
+				</section>
+
+				<article class="project-detail">
+					<section>
+						<h1 class="js_scroll">RULE</h1>
+						<section class="js_scroll">
+							<h2>#1</h2>
+							<p class="text_aboutImage">Puyo(in my app : 💙) fall from the top of the screen in pairs. The piece can be <strong>moved,rotated and dropped</strong> by prompting the user. The piece falls until it reaches another Puyo or the bottom of the screen. </p>
+							<p class="text_aboutImage">In my game, user can decide the position first, then drop them.</p>
+							<div class="image_widthMiddle screen_items"><figure><img src="images/drop.png"></figure></div>
+						</section>
+
+						<section class="js_scroll">
+							<h2 id = "section2">#2</h2>
+							<p class="text_aboutImage">When four or more Puyo of the same color line up adjacent to each other, they disappear. Puyo connect horizontally or vertically. This is called <strong>Popping</strong>.</p>
+							<p class="text_aboutImage">A Chain is made when falling Puyo cause a new group of Puyo to Pop, making a <strong>chain reaction</strong>(Following picture). </p>
+							<p class="text_aboutImage">Ref: <a href="https://en.wikipedia.org/wiki/Puyo_Puyo#Gameplay">https://en.wikipedia.org/wiki/Puyo_Puyo#Gameplay</a></p>
+							<div class="image_widthMiddle screen_items"><figure><img src="images/chain.png"></figure></div>
+							
+						</section>
 					</section>
 
-					<article class="project-detail">
-						<section>
-							<h1 class="js_scroll">RULE</h1>
-							<section class="js_scroll">
-								<h2>#1</h2>
-								<p class="text_aboutImage">Puyo(in my app : 💙) fall from the top of the screen in pairs. The piece can be <strong>moved,rotated and dropped</strong> by prompting the user. The piece falls until it reaches another Puyo or the bottom of the screen. </p>
-								<p class="text_aboutImage">In my game, user can decide the position first, then drop them.</p>
-								<div class="image_widthMiddle"><figure><img src="images/drop.png"></figure></div>
-							</section>
-
-							<section class="js_scroll">
-								<h2>#2</h2>
-								<p class="text_aboutImage">When four or more Puyo of the same color line up adjacent to each other, they disappear. Puyo connect horizontally or vertically. This is called <strong>Popping</strong>.</p>
-								<p class="text_aboutImage">A Chain is made when falling Puyo cause a new group of Puyo to Pop, making a <strong>chain reaction</strong>(Following picture). </p>
-								<p class="text_aboutImage">Ref: <a href="https://en.wikipedia.org/wiki/Puyo_Puyo#Gameplay">https://en.wikipedia.org/wiki/Puyo_Puyo#Gameplay</a></p>
-								<div class="image_widthMiddle"><figure><img src="images/chain.png"></figure></div>
-								
-							</section>
+					<section>
+						<h1 class="js_scroll">SCORING</h1>
+						<section class="js_scroll">
+							<p class="text_aboutImage">The scoring is based on the formula, which consists of follows:</p>
+							<ul class="text_aboutImage">
+								<li>Number of puyo cleared in the chain</li>
+								<li>How many puyo are in the group</li>
+								<li>Number of chain reaction</li>
+							</ul>
+							<p class="text_aboutImage">In a nutshell, the more you chain and the bigger the amount you clear per chain, the higher the score gets.</p>
+							<div class="image_widthMiddle screen_items"><figure><img src="images/score.png"></figure></div>
 						</section>
-
-						<section>
-							<h1 class="js_scroll">SCORING</h1>
-							<section class="js_scroll">
-								<p class="text_aboutImage">The scoring is based on the formula, which consists of follows:</p>
-								<ul class="text_aboutImage">
-									<li>Number of puyo cleared in the chain</li>
-									<li>How many puyo are in the group</li>
-									<li>Number of chain reaction</li>
-								</ul>
-								<p class="text_aboutImage">In a nutshell, the more you chain and the bigger the amount you clear per chain, the higher the score gets.</p>
-								<div class="image_widthMiddle"><figure><img src="images/score.png"></figure></div>
-							</section>
-						</section>
-					</article>
-
-		<!-- <section>
-			<div class="row screen_items">
-				<div class="col-sm-4 screen_item js_scroll">
-					<figure><img src="images/screenshot_01.jpg"></figure>
-				</div>
-				<div class="col-sm-4 screen_item js_scroll">
-					<figure><img src="images/screenshot_02.jpg"></figure>
-				</div>
-				<div class="col-sm-4 screen_item js_scroll">
-					<figure><img src="images/screenshot_03.jpg"></figure>
-				</div>
-			</div> <!-- end row -->
-			<!-- </section> -->
-
+					</section>
+				</article>
 		</div> <!-- end contents_wrapper -->
 
 
