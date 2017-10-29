@@ -50,6 +50,10 @@
 	}
 }
 
+.text_align_center {
+	text-align: center;
+}
+
 
 
 #main_contents {
@@ -123,20 +127,17 @@
 	max-width: 200px;
 	margin: 0 auto;
 }
-.project-detail .image_widthSmall figure > img {
-	margin-top: 0px;
-}
 .project-detail section img {
-	margin-top: 60px;
+	margin-bottom: 60px;
 }
 .project-detail .image_widthMax + p{
-	margin-top: 80px;
+	margin-bottom: 80px;
 }
 .project-detail .image_widthSmall + p{
-	margin-top: 50px;	
+	margin-bottom: 50px;	
 }
 .project-detail .text_aboutImage {
-	margin: 25px auto 0 auto;
+	margin: 0 auto 25px auto;
 	max-width: 780px;
 	text-align: center;
 }
@@ -153,8 +154,8 @@
 .project-detail .button a{
 	display: inline-block;
     width: 18rem;
-    background: #24292e;
-    color: #fff;
+    
+    
     text-align: center;
     line-height: 30px;
     padding: 10px 20px;
@@ -165,11 +166,27 @@
     -moz-box-shadow: 0 11px 25px -10px #f2f2f2;
     -webkit-box-shadow: 0 11px 25px -10px #f2f2f2;
 }
+
+
+.project-detail .github a {
+	background: #24292e;
+	color: #fff;
+}
+
+.project-detail .itunes a {
+	background: #333;
+	color: #fff;
+}
+
 .project-detail .button a i{
 	font-size: 22px;
     margin-right: 8px;
     vertical-align: middle;
     margin-top: -2px;
+}
+
+.project-detail .itunes a i{
+	font-size: 20px;
 }
 
 
