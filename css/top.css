@@ -141,31 +141,51 @@ nav .navbar-toggle .icon-bar {
 #skills{
 	margin-top: 40px;
 }
-#skills div {
-    margin-bottom: 20px;
-}
+
 #skills h2{
     margin-bottom: 20px;
 	font-size: 14px;
 	text-align: left;
-	font-weight: bold;
+	font-weight: 800;
 	text-transform: uppercase;
     letter-spacing: 0.1em;
 }
-#skills ul{
-	margin: 0;
+
+#skills .skill_section {
+    margin-bottom: 30px;
 }
-#skills .skill_item p {
+#skills .skill_section:last-child {
     margin-bottom: 0px;
 }
-#skills .skill_item span{
+#skills .skill_section .skill_item {
+    margin-bottom: 10px;
+}
+
+#skills .skill_section .skill_item p {
+    margin-bottom: 0px;
+}
+#skills .skill_section .skill_item p.one_line {
+    white-space: nowrap;
+}
+#skills .skill_section .skill_item span{
     display: inline-block;
     background-color: #f2e0e0;
     height: 10px;
     width: 10px;
 }
-#skills .skill_item span.fill {
+#skills .skill_section .skill_item span.fill {
     background-color: #f95757;
+}
+#skills ul li:first-child {
+    margin-left: 0;
+}
+#skills ul li {
+    margin: 0 10px;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    line-height: 1.7;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 

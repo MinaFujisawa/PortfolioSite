@@ -12,20 +12,6 @@ body {
 	color: #4d4d4d;
 }
 
-/*not selector is for prevention from overwrap animation of a.thumbnail */
-/*a:not(.thumbnail):hover, button:hover, a img:hover{ 
-	opacity: .5 ;
-	-webkit-opacity: .5;
-	-moz-opacity: .5;
-    cursor: pointer;
-}*/
- 
-/*a:not(.thumbnail), button, a img{
-	-webkit-transition: opacity .5s ease-out !important;
-	-moz-transition: opacity .5s ease-out !important;
-	-ms-transition: opacity .5s ease-out !important;
-	transition: opacity .5s ease-out !important;
-}*/
 
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
@@ -51,6 +37,14 @@ p {
     text-justify: inter-word;
 }
 
+p a {
+    color:#f95757;
+    border-bottom: 1px solid #f95757;
+}
+a:hover, a:focus {
+    color:#f95757;
+}
+
 figure img {
     width: 100%;
 }
@@ -60,6 +54,9 @@ button {
     border: none;
 }
 
+strong {
+    font-weight: 800;
+}
 
 
 
