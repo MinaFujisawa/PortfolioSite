@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Puyo Puyo</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- CSS CDN -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Puyo Puyo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="/images/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-180x180.png" />
+
+<!-- CSS CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
-	<!-- Custom styles -->
-	<link href="../../css/main.css" rel="stylesheet">
-	<link href="../css/projects.css" rel="stylesheet">
+<!-- Custom styles -->
+<link href="../../css/main.css" rel="stylesheet">
+<link href="../css/projects.css" rel="stylesheet">
 
-	<!-- fonts CDN -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:400,600,700,800" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
-	<script src="../../js/fontawesome.js"></script>
+<!-- fonts CDN -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:400,600,700,800" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+<script src="../../js/fontawesome.js"></script>
 
-	<!-- JS -->
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.js"></script>
-	<script>
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.js"></script>
+<script>
 
 	</script>
 
@@ -87,86 +92,75 @@
 		
 		<div class="container">
 			<div class="contents_wrapper">
-					<!-- <section>
-						<div class="image_widthMax image_main"><figure><img src="images/main.png"></figure></div>
-					</section> -->
-					
-
-					<section>
-						<div class="row description">
-							<div class="col-md-6">
-								<h1 class="js_scroll">ABOUT</h1>
-								<p class="js_scroll">I made two brain training games, <strong>Low to High</strong> and <strong>Stroop Test</strong>. They were my very fist apps that I made from scratch.</p>
-							</div>
-							<div class="col-md-6">
-								<h1 class="js_scroll">CHALLANGE</h1>
-								<p class="js_scroll">Since I was very beginner at Android app development, main theme was learning basic concepts and get used to them. Furthermore, using CountDownTimer and switching layouts in the same activity were challenging.</p>
-							</div>
+				<section>
+					<div class="row description">
+						<div class="col-md-6">
+							<h1 class="js_scroll">ABOUT</h1>
+							<p class="js_scroll">I made two brain training games, <strong>Low to High</strong> and <strong>Stroop Test</strong>. They were my very fist apps that I made from scratch.</p>
 						</div>
+						<div class="col-md-6">
+							<h1 class="js_scroll">CHALLANGE</h1>
+							<p class="js_scroll">Since I was very beginner at Android app development, main theme was learning basic concepts and get used to them. Furthermore, using CountDownTimer and switching layouts in the same activity were challenging.</p>
+						</div>
+					</div>
+				</section>
+
+				<article class="project-detail">
+					<section>
+						<h1 class="js_scroll">#1 Low to High</h1>
+						<section class="js_scroll">
+							<div class="row screen_items">
+								<div class="col-sm-4 screen_item js_scroll"></div>
+								<div class="col-sm-4 screen_item js_scroll">
+									<figure><img src="images/LowToHigh_trimed_gif.gif\"></figure>
+								</div>
+								<div class="col-sm-4 screen_item js_scroll"></div>
+							</div> <!-- end row -->
+							<p class="text_aboutImage">Replication of one of the games from the video game console called <a href ="http://brainage.nintendo.com/">Brain Age</a> by Nintendo.</p>
+							<p class="text_aboutImage">Numbers appear in boxes for a short period of time. Afterwards, you must touch the boxes from <strong>lowest number to highest</strong> by <strong>memorizing</strong> the numbers.</p>
+							<p class="text_aboutImage">If you select a wrong number twice, you lose.</p>
+							<p class="text_aboutImage">Ref: <a href="https://en.wikipedia.org/wiki/Brain_Age:_Train_Your_Brain_in_Minutes_a_Day!#Training">https://en.wikipedia.org/wiki/Puyo_Puyo#Gameplay</a></p>
+							<div class="button github js_scroll">
+								<a href="https://github.com/MinaFujisawa/Low_to_High" target="_blank"><i class="fa fa-github"></i>SEE ON Github</a>
+							</div>
+							
+						</section>
 					</section>
 
-					<article class="project-detail">
-						<section>
-							<h1 class="js_scroll">#1 Low to High</h1>
-							<section class="js_scroll">
-								<div class="image_widthSmall js_scroll"><figure><img src="images/LowToHigh_trimed_gif.gif"></figure></div>
-								<p class="text_aboutImage">Replication of one of the games from the video game console called <a href ="http://brainage.nintendo.com/">Brain Age</a> by Nintendo.</p>
-								<p class="text_aboutImage">Numbers appear in boxes for a short period of time. Afterwards, you must touch the boxes from <strong>lowest number to highest</strong> by <strong>memorizing</strong> the numbers.</p>
-								<p class="text_aboutImage">If you select a wrong number twice, you lose.</p>
-								<p class="text_aboutImage">Ref: <a href="https://en.wikipedia.org/wiki/Brain_Age:_Train_Your_Brain_in_Minutes_a_Day!#Training">https://en.wikipedia.org/wiki/Puyo_Puyo#Gameplay</a></p>
-								<div class="button github js_scroll">
-									<a href="https://github.com/MinaFujisawa/Low_to_High" target="_blank"><i class="fa fa-github"></i>SEE ON Github</a>
+					<section>
+						<h1 class="js_scroll">#2 Stroop Test</h1>
+						<section class="js_scroll">
+							<div class="row screen_items">
+								<div class="col-sm-4 screen_item js_scroll"></div>
+								<div class="col-sm-4 screen_item js_scroll">
+									<figure><img src="images/stroop_test.png"></figure>
 								</div>
-								
-							</section>
+								<div class="col-sm-4 screen_item js_scroll"></div>
+							</div>
+							<p class="text_aboutImage">One of five words (blue, black, yellow, green and red) will appear on screen, one after another, each appearing in a random color (which may not match the color denoted by the word).</p>
+							<p class="text_aboutImage">The player must choose the color of the word, rather than its semantic meaning (e.g., if the word BLUE appears in red, the player should select "RED").</p>
+							<div class="button github js_scroll">
+								<a href="https://github.com/MinaFujisawa/Stroop_Test" target="_blank"><i class="fa fa-github"></i>SEE ON Github</a>
+							</div>
+							
 						</section>
+					</section>
+				</article>
+			</div> <!-- end contents_wrapper -->
 
-						<section>
-							<h1 class="js_scroll">#2 Stroop Test</h1>
-							<section class="js_scroll">
-								<div class="image_widthSmall"><figure><img src="images/stroop_test.png"></figure></div>
-								<p class="text_aboutImage">One of five words (blue, black, yellow, green and red) will appear on screen, one after another, each appearing in a random color (which may not match the color denoted by the word).</p>
-								<p class="text_aboutImage">The player must choose the color of the word, rather than its semantic meaning (e.g., if the word BLUE appears in red, the player should select "RED").</p>
-								<div class="button github js_scroll">
-									<a href="https://github.com/MinaFujisawa/Stroop_Test" target="_blank"><i class="fa fa-github"></i>SEE ON Github</a>
-								</div>
-								
-							</section>
-						</section>
-					</article>
 
-		<!-- <section>
-			<div class="row screen_items">
-				<div class="col-sm-4 screen_item js_scroll">
-					<figure><img src="images/screenshot_01.jpg"></figure>
+			<section class="navi_works js_scroll">
+				<div class="row">
+					<div class="col-md-2 col-sm-3 col-xs-3 prev"><a href="#"><i class="fa fa-chevron-left"></i>PREV</a></div>
+					<span class="col-sm-3 hidden-sm hidden-xs"></span>
+					<div class="col-md-2 col-sm-6 col-xs-6 backToHome"><a href="/portfolio/html/#works">BACK TO LIST</a></div>
+					<span class="col-sm-3 hidden-sm hidden-xs"></span>
+					<div class="col-md-2 col-sm-3 col-xs-3 next" ><a href="#">NEXT<i class="fa fa-chevron-right"></i></a></div>
 				</div>
-				<div class="col-sm-4 screen_item js_scroll">
-					<figure><img src="images/screenshot_02.jpg"></figure>
-				</div>
-				<div class="col-sm-4 screen_item js_scroll">
-					<figure><img src="images/screenshot_03.jpg"></figure>
-				</div>
-			</div> <!-- end row -->
-			<!-- </section> -->
+			</section>
 
-		</div> <!-- end contents_wrapper -->
-
-
-		<section class="navi_works js_scroll">
-			<div class="row">
-				<div class="col-md-2 col-sm-3 col-xs-3 prev"><a href="#"><i class="fa fa-chevron-left"></i>PREV</a></div>
-				<span class="col-sm-3 hidden-sm hidden-xs"></span>
-				<div class="col-md-2 col-sm-6 col-xs-6 backToHome"><a href="/portfolio/html/#works">BACK TO LIST</a></div>
-				<span class="col-sm-3 hidden-sm hidden-xs"></span>
-				<div class="col-md-2 col-sm-3 col-xs-3 next" ><a href="#">NEXT<i class="fa fa-chevron-right"></i></a></div>
-			</div>
-		</section>
-
-	</div> <!-- end container -->
-</section>
-
-
-
+		</div> <!-- end container -->
+	</section>
 
 </div> <!-- end #main_contents -->
 
