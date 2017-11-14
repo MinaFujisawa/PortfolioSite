@@ -56,6 +56,10 @@
 
 
 
+
+
+
+
 #main_contents {
 	padding-top: 120px;
 	background: #fff;
@@ -127,15 +131,19 @@
 	max-width: 200px;
 	margin: 0 auto;
 }
-.project-detail section img {
-	margin-bottom: 60px;
+.project-detail ul.screen_items li {
+	margin: 0 10px;
+}
+.project-detail ul.screen_items li img {
+	margin-bottom: 40px;
+	width: 240px;
 }
 .project-detail .image_widthMax + p{
 	margin-bottom: 80px;
 }
-.project-detail .image_widthSmall + p{
+/*.project-detail .image_widthSmall + p{
 	margin-bottom: 50px;	
-}
+}*/
 .project-detail .text_aboutImage {
 	margin: 0 auto 25px auto;
 	max-width: 780px;
@@ -154,28 +162,37 @@
 .project-detail .button a{
 	display: inline-block;
     width: 18rem;
-    
-    
     text-align: center;
     line-height: 30px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    margin-top: 30px;
     box-shadow: 0 11px 25px -10px #f2f2f2;
     -moz-box-shadow: 0 11px 25px -10px #f2f2f2;
     -webkit-box-shadow: 0 11px 25px -10px #f2f2f2;
 }
 
 
+/* buttons */
 .project-detail .github a {
 	background: #24292e;
 	color: #fff;
 }
+.project-detail .googlePlay {
+	margin-top: 10px;
+}
+.project-detail .googlePlay a img{
+	width: 240px;
+}
 
 .project-detail .itunes a {
-	background: #333;
-	color: #fff;
+	background: #f2f2f2;
+	color: #333;
+}
+
+.project-detail .itunes a {
+	background: #f2f2f2;
+	color: #333;
 }
 
 .project-detail .button a i{
@@ -242,6 +259,15 @@
   border-bottom: 10px solid transparent; 
   
   border-right:10px solid blue; 
+}
+
+/* JavaQ */
+table thead tr th, table tbody tr th {
+	text-align: center;
+}
+table .badge_image img{
+	width: 30px;
+	margin: 0 auto;
 }
 
 
