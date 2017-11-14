@@ -70,7 +70,11 @@
 	}
 }
 .contents_wrapper section {
-    margin-bottom: 140px;
+    margin-bottom: 120px;
+}
+
+.contents_wrapper section.margin-bottom_shorter {
+	margin-bottom: 90px;
 }
 
 .contents_wrapper section:last-child {
@@ -119,18 +123,7 @@
 .project-detail section h2 {
 	font-size: 22px;
 }
-/*.project-detail section strong {
-	background: #f5f5f5;
-    padding: 2px;
-}*/
-.project-detail .image_widthMiddle figure {
-	max-width: 840px;
-    margin: 0 auto;
-}
-.project-detail .image_widthSmall figure {
-	max-width: 200px;
-	margin: 0 auto;
-}
+
 .project-detail ul.screen_items li {
 	margin: 0 10px;
 }
@@ -138,12 +131,10 @@
 	margin-bottom: 40px;
 	width: 240px;
 }
-.project-detail .image_widthMax + p{
-	margin-bottom: 80px;
+#solofood .project-detail div.screen_items div{
+	margin-bottom: 30px;
 }
-/*.project-detail .image_widthSmall + p{
-	margin-bottom: 50px;	
-}*/
+
 .project-detail .text_aboutImage {
 	margin: 0 auto 25px auto;
 	max-width: 780px;
