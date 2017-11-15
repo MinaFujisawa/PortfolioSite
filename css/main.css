@@ -37,7 +37,7 @@ p {
     text-justify: inter-word;
 }
 
-p a {
+p a, small a {
     color:#f95757;
     border-bottom: 1px solid #f95757;
 }

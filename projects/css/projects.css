@@ -141,9 +141,15 @@
 	text-align: center;
 }
 
-.project-detail ul.text_aboutImage {
+#puyopuyo .project-detail ul {
 	text-align: left;
 	width: 280px;
+}
+
+#javat .project-detail #deliverables ul {
+	text-align: left;
+    width: 480px;
+    margin: 0 auto;
 }
 
 /*.project-detail .button {
