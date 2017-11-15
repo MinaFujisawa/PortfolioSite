@@ -45,6 +45,10 @@ a:hover, a:focus {
     color:#f95757;
 }
 
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
 figure img {
     width: 100%;
 }

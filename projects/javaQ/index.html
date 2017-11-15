@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Puyo Puyo</title>
+<title>JavaQ</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Favicon -->
@@ -31,7 +31,7 @@
 </script>
 
 </head>
-<body>
+<body id="javaq">
 	<header>
 		<nav class="navbar navbar-fixed-top" role="navigation">
 			<div class="container">
@@ -82,7 +82,7 @@
 				</div>
 				<div class="col-sm-3 col-xs-6 home_info">
 					<h2>Date</h2>
-					<p>JUN 2017 - AUG 2017</p>
+					<p>JUN 2017</p>
 				</div>
 
 			</div>
@@ -98,127 +98,130 @@
 						<div class="col-md-6">
 							<h1 class="js_scroll">ABOUT</h1>
 							<p class="js_scroll">JavaQ is the app that users can <strong>learn Java</strong> through some <strong>quizzes</strong>.<br>
-							I worked on this project with my one of classmates. We published this app on <a = href ="">Google play</a></p>
+							We published this app on <a = href ="https://play.google.com/store/apps/details?id=com.mina.aki.javaq&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank">Google play</a></p>
+							<small class="js_scroll">This is a team project with my one of classmates. <a href="#deliverables">See my deliverables</a> for this project.</small>
 						</div>
 						<div class="col-md-6">
 							<h1 class="js_scroll">CHALLANGE</h1>
-							<p class="js_scroll">Thinking the logic to achieve to make <strong>Progress</strong> was quite hard for us.</p>
+							<p class="js_scroll">Thinking the logic to achieve to make <strong>Progress</strong> was quite hard for us and this.</p>
 						</div>
 					</div>
 				</section>
 
 				<article class="project-detail">
-					<section>
-						<h1 class="js_scroll">#1 Quiz</h1>
-						<section class="js_scroll">
-							<h2>Quiz Sections</h2>
-							<ul class="list-inline screen_items js_scroll">
-								<li class="screen_item">
-									<figure><img src="images/section.png"></figure>
-								</li>
-							</ul>
-							
-							<p class="text_aboutImage">Users can tell which section is done and grade by the <a href="#progress">badges</a><br>
-							Thanks to <strong>Shared preferences</strong>, users don’t lost these budges even after close this app.</p>
-							
-						</section>
+					<section class="js_scroll">
+						<h1>Quiz Sections</h1>
+						<ul class="list-inline screen_items js_scroll">
+							<li class="screen_item">
+								<figure><img src="images/section.png"></figure>
+							</li>
+						</ul>
+						
+						<p class="text_aboutImage">Users can tell which section is done and grade by the <a href="#progress">badges</a><br>
+						Thanks to <strong>Shared preferences</strong>, users don’t lost these badges even after close this app.</p>
+						
+					</section>
 
-						<section class="js_scroll">
-							<h2>Quiz</h2>
-							<ul class="list-inline screen_items js_scroll">
-								<li class="screen_item">
-									<figure><img src="images/quiz_01.png"></figure>
-								</li>
-								<li class="screen_item">
-									<figure><img src="images/quiz_02.png"></figure>
-								</li>
-								<li class="screen_item">
-									<figure><img src="images/quiz_03.png"></figure>
-								</li>
-							</ul>
-							<p class="text_aboutImage">Number of answer buttons and progress circle will be changed by each of quizzes.<br>
-							The order of the quizzes is random.</p>
+					<section class="js_scroll">
+						<h1>Quiz</h1>
+						<ul class="list-inline screen_items js_scroll">
+							<li class="screen_item">
+								<figure><img src="images/quiz_01.png"></figure>
+							</li>
+							<li class="screen_item">
+								<figure><img src="images/quiz_02.png"></figure>
+							</li>
+							<li class="screen_item">
+								<figure><img src="images/quiz_03.png"></figure>
+							</li>
+						</ul>
+						<p class="text_aboutImage">Number of answer buttons and progress circles will be changed by each of quizzes.<br>
+						The order of the quizzes is random.</p>
 
-							
-						</section>
+						
+					</section>
 
-						<section class="js_scroll">
-							<h2>Result</h2>
-							<ul class="list-inline screen_items js_scroll">
-								<li class="screen_item">
-									<figure><img src="images/result.png"></figure>
-								</li>
-							</ul>
-							<p class="text_aboutImage">Badge ( crown symbol ) , comment, background color have some variety based on the score.</p>
-							<p class="text_aboutImage">
-							<div class="row">
-								<div class="col-sm-2 screen_item js_scroll"></div>
-								<div class="col-sm-8 screen_item js_scroll">
-									<table class="table table-bordered">
-										<thead>
-											<tr>
-												<th>Score</th>
-												<th>Comment</th>
-												<th>Badge</th>
-												<th>Background</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<th scope="row">90 - 100%</th>
-												<td>Fantastic!</td>
-												<td><figure  class="badge_image"><img src="images/ic_badge_gold.png"></figure></td>
-												<td>Green</td>
-											</tr>
-											<tr>
-												<th scope="row">80 - 89%</th>
-												<td>Great!</td>
-												<td><figure  class="badge_image"><img src="images/ic_badge_silver.png"></figure></td>
-												<td>Green</td>
-											</tr>
-											<tr>
-												<th scope="row">70 - 79%</th>
-												<td>Good!</td>
-												<td><figure  class="badge_image"><img src="images/ic_badge_copper.png"></figure></td>
-												<td>Green</td>
-											</tr>
-											<tr>
-												<th scope="row">0 - 69%</th>
-												<td>Failed!</td>
-												<td><figure  class="badge_image"><img src="images/ic_badge_none.png"></figure></td>
-												<td>Gray</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-								<div class="col-sm-2 screen_item js_scroll"></div>
-							</div><!-- end row -->
-						</section>
-
+					<section class="js_scroll">
+						<h1>Result</h1>
+						<ul class="list-inline screen_items js_scroll">
+							<li class="screen_item">
+								<figure><img src="images/result.png"></figure>
+							</li>
+						</ul>
+						<p class="text_aboutImage">Badge ( crown symbol ) , comment, background color have some variety based on the score.</p>
+						<table class="table table-bordered js_scroll"">
+							<thead>
+								<tr>
+									<th>Score</th>
+									<th>Comment</th>
+									<th>Badge</th>
+									<th>Background</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">90 - 100%</th>
+									<td>Fantastic!</td>
+									<td><figure  class="badge_image"><img src="images/ic_badge_gold.png"></figure></td>
+									<td>Green</td>
+								</tr>
+								<tr>
+									<th scope="row">80 - 89%</th>
+									<td>Great!</td>
+									<td><figure  class="badge_image"><img src="images/ic_badge_silver.png"></figure></td>
+									<td>Green</td>
+								</tr>
+								<tr>
+									<th scope="row">70 - 79%</th>
+									<td>Good!</td>
+									<td><figure  class="badge_image"><img src="images/ic_badge_copper.png"></figure></td>
+									<td>Green</td>
+								</tr>
+								<tr>
+									<th scope="row">0 - 69%</th>
+									<td>Failed!</td>
+									<td><figure  class="badge_image"><img src="images/ic_badge_none.png"></figure></td>
+									<td>Gray</td>
+								</tr>
+							</tbody>
+						</table>
 					</section>
 
 					<section>
-						<h1 class="js_scroll" id ="progress">#2 Progress</h1>
-							<ul class="list-inline screen_items js_scroll">
-								<li class="screen_item">
-									<figure><img src="images/progress.png"></figure>
-								</li>
-							</ul>
-							<p class="text_aboutImage">It shows how often users did quizzes. Once users reached the Result screen, we count it as the user “did” quiz.<br>
-							If users don’t play quiz in a day, Active streak will <strong>reset</strong> to 0.<p>
-							
-							<p class="text_aboutImage">We take <strong>timestamps</strong> with day of week every time users arrived to the Result screen, and check if this user played previous day too and this is the first day in a day.</p>
-							
-							<p class="text_aboutImage">In order to <strong>flush</strong> Weekly Progress to all gray color at <strong>every Sunday 12:00 am</strong>,<br>
-							it checks the time difference between current time and the latest timestamp.</p>
+						<h1 class="js_scroll" id ="progress">Progress</h1>
+						<ul class="list-inline screen_items js_scroll">
+							<li class="screen_item">
+								<figure><img src="images/progress.png"></figure>
+							</li>
+						</ul>
+						<p class="text_aboutImage">It shows how often users did quizzes. Once users reached the Result screen, we count it as the user “did” quiz.<br>
+						If users don’t play quiz in a day, Active streak will <strong>reset</strong> to 0.<p>
+						
+						<p class="text_aboutImage">We take <strong>timestamps</strong> with day of week every time users arrived to the Result screen, and check if this user played previous day too and this is the first day in a day.</p>
+						
+						<p class="text_aboutImage">In order to <strong>flush</strong> Weekly Progress to all gray color at <strong>every Sunday 12:00 am</strong>,<br>
+						it checks the time difference between current time and the latest timestamp.</p>
 					</section>
 					<section>
 						<div class="button github js_scroll">
 							<a href="https://github.com/aaakiii/JavaT" target="_blank"><i class="fa fa-github"></i>SEE ON Github</a>
 						</div>
 						<div class="googlePlay js_scroll">
-							<a href='https://play.google.com/store/apps/details?id=com.mina.aki.javaq&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+							<a href='https://play.google.com/store/apps/details?id=com.mina.aki.javaq&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
 						</div>
+					</section>
+					<section id="deliverables" class="js_scroll">
+						<h2>My main deliverables</h2>
+						<ul>
+							<li>UX / UI (prototype, icons, logos, layouts and styles)</li>
+							<li>Saving Shared Preferences</li>
+							<li>Active streak and Weekly progress</li>
+							<li>Badges</li>
+							<li>Quiz Section page</li>
+							<li>Drawer menu</li>
+							<li>Google play console</li>
+							<li>And so on...</li>
+						</ul>
 					</section>
 				</article>
 
@@ -227,11 +230,11 @@
 
 			<section class="navi_works js_scroll">
 				<div class="row">
-					<div class="col-md-2 col-sm-3 col-xs-3 prev"><a href="#"><i class="fa fa-chevron-left"></i>PREV</a></div>
+					<div class="col-md-2 col-sm-3 col-xs-3 prev"><a href="/portfolio/html/projects/monoTalk"><i class="fa fa-chevron-left"></i>NEXT</a></div>
 					<span class="col-sm-3 hidden-sm hidden-xs"></span>
 					<div class="col-md-2 col-sm-6 col-xs-6 backToHome"><a href="/portfolio/html/#works">BACK TO LIST</a></div>
 					<span class="col-sm-3 hidden-sm hidden-xs"></span>
-					<div class="col-md-2 col-sm-3 col-xs-3 next" ><a href="#">NEXT<i class="fa fa-chevron-right"></i></a></div>
+					<div class="col-md-2 col-sm-3 col-xs-3 next" ><a href="/portfolio/html/projects/javaT">PREV<i class="fa fa-chevron-right"></i></a></div>
 				</div>
 			</section>
 

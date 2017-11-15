@@ -9,6 +9,7 @@
 	}
 }
 .home_content h1 {
+	text-transform: none;
 	text-align: left;
 	font-size: 50px;
 	color: #f95757;
@@ -151,6 +152,11 @@
     width: 480px;
     margin: 0 auto;
 }
+#javaq .project-detail #deliverables ul {
+	text-align: left;
+    width: 390px;
+    margin: 0 auto;
+}
 
 /*.project-detail .button {
 	margin: 0 auto;
@@ -259,10 +265,14 @@
 }
 
 /* JavaQ */
-table thead tr th, table tbody tr th {
+#javaq table {
+	width: 790px;
+    margin: 0 auto;
+}
+#javaq table thead tr th, table tbody tr th {
 	text-align: center;
 }
-table .badge_image img{
+#javaq table .badge_image img{
 	width: 30px;
 	margin: 0 auto;
 }

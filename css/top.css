@@ -53,7 +53,6 @@
 .full_screen .home_text h2{
 	margin-top: 0;
 	font-size: 50px;
-	text-transform: uppercase;
 	font-weight: 900;
 	line-height: 130%;
     letter-spacing: 0.05em;
@@ -147,7 +146,6 @@ nav .navbar-toggle .icon-bar {
 	font-size: 14px;
 	text-align: left;
 	font-weight: 800;
-	text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
@@ -227,7 +225,6 @@ nav .navbar-toggle .icon-bar {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.15em;
-    text-transform: uppercase;
 }
 .portrait img{
 	width: 100%;
@@ -240,36 +237,6 @@ nav .navbar-toggle .icon-bar {
     position: relative;
 }
 
-#works figure .thumbnail {
-	display: block;
-    position: relative;
-    max-width: 400px;
-    margin: 0 auto 30px;
-    padding: 0;
-    border: none;
-    box-shadow: none;
-
-    box-shadow:0 11px 25px -10px #f2f2f2;
-	-moz-box-shadow:0 11px 25px -10px #f2f2f2;
-	-webkit-box-shadow:0 11px 25px -10px #f2f2f2;
-}
-#works figure .thumbnail img{
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
-}
-/*#works figure figcaption{
-    padding: 2em;
-    font-size: 1.25em;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: #f95757;
-    opacity: 1;
-}*/
 figcaption:before {
     content: '';
     display: block;
@@ -306,7 +273,25 @@ figcaption:before {
     opacity: .9;
 }
 
-#works figure figcaption > div{
+#works figure .thumbnail {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto 30px;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+
+    box-shadow:0 11px 25px -10px #f2f2f2;
+    -moz-box-shadow:0 11px 25px -10px #f2f2f2;
+    -webkit-box-shadow:0 11px 25px -10px #f2f2f2;
+}
+#works figure .thumbnail img{
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+#works figure .thumbnail figcaption > div{
     color: #f95757;
     position: absolute;
     width: 100%;
@@ -315,15 +300,16 @@ figcaption:before {
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%); 
 }
-#works figure h2 {
+#works figure .thumbnail h2 {
     margin-top: 0;
+    text-transform: none;
     letter-spacing: 0.05em;
 }
-#works figure p {
+#works figure .thumbnail p {
     margin-bottom: 0;
 }
-#works figure h2,
-#works figure p {
+#works figure .thumbnail h2,
+#works figure .thumbnail p {
     font-weight: 600;
     opacity: 0;
     text-align: center;
