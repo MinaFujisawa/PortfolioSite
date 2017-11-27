@@ -6,8 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Favicon -->
-<link rel="shortcut icon" href="http://mina-fujisawa.com/images/favicon.ico">
-<link rel="apple-touch-icon-precomposed" href="http://mina-fujisawa.com/images/apple-touch-icon-180x180.png" />
+<link rel="icon" href="http://mina-fujisawa.com/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://mina-fujisawa.com/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon-precomposed" type="image/png" href="http://mina-fujisawa.com/apple-touch-icon-180x180.png" />
 
 <!-- CSS CDN -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -97,13 +98,13 @@
 					<div class="row description">
 						<div class="col-md-6">
 							<h1 class="js_scroll">ABOUT</h1>
-							<p class="js_scroll">JavaQ is the app that users can <strong>learn Java</strong> through some <strong>quizzes</strong>.<br>
-							We published this app on <a = href ="https://play.google.com/store/apps/details?id=com.mina.aki.javaq&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank">Google play</a></p>
-							<small class="js_scroll">This is a team project with my one of classmates. <a href="#deliverables">See my deliverables</a> for this project.</small>
+							<p class="js_scroll">JavaQ is an app where users can <strong>learn Java</strong> through some <strong>quizzes</strong>.<br>
+							This app is available on <a = href ="https://play.google.com/store/apps/details?id=com.mina.aki.javaq&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank">Google play.</a></p>
+							<small class="js_scroll">This is a team project with one of my classmates.<a href="#deliverables">See my deliverables</a> for this project.</small>
 						</div>
 						<div class="col-md-6">
-							<h1 class="js_scroll">CHALLANGE</h1>
-							<p class="js_scroll">Thinking the logic to achieve to make <strong>Progress</strong> was quite hard for us and this.</p>
+							<h1 class="js_scroll">CHALLENGES</h1>
+							<p class="js_scroll">Thinking about the logic in order to achieve <strong>Progress</strong> was quite hard for us.</p>
 						</div>
 					</div>
 				</section>
@@ -117,8 +118,8 @@
 							</li>
 						</ul>
 						
-						<p class="text_aboutImage">Users can tell which section is done and grade by the <a href="#progress">badges</a><br>
-						Thanks to <strong>Shared preferences</strong>, users don’t lost these badges even after close this app.</p>
+						<p>Users can easily know which section is done by earning the <a href="#progress">badges.</a><br>
+						Thanks to <strong>Shared preferences</strong> feature, users won't lose their badges even after closing the app.</p>
 						
 					</section>
 
@@ -135,20 +136,20 @@
 								<figure><img src="images/quiz_03.png"></figure>
 							</li>
 						</ul>
-						<p class="text_aboutImage">Number of answer buttons and progress circles will be changed by each of quizzes.<br>
+						<p>The number of progress circles will be changed by each of section.<br>
 						The order of the quizzes is random.</p>
 
 						
 					</section>
 
 					<section class="js_scroll">
-						<h1>Result</h1>
+						<h1>Results</h1>
 						<ul class="list-inline screen_items js_scroll">
 							<li class="screen_item">
 								<figure><img src="images/result.png"></figure>
 							</li>
 						</ul>
-						<p class="text_aboutImage">Badge ( crown symbol ) , comment, background color have some variety based on the score.</p>
+						<p>Badge (crown symbol) ,  comments and background colors have some variety based on the score.</p>
 						<table class="table table-bordered js_scroll"">
 							<thead>
 								<tr>
@@ -194,22 +195,14 @@
 								<figure><img src="images/progress.png"></figure>
 							</li>
 						</ul>
-						<p class="text_aboutImage">It shows how often users did quizzes. Once users reached the Result screen, we count it as the user “did” quiz.<br>
-						If users don’t play quiz in a day, Active streak will <strong>reset</strong> to 0.<p>
+						<p>It shows how often users did quizzes. Once users reached the Result screen, we count it as the user completed the quiz.<br>
+						If the user doesn't play the quiz in a day, the Active streak will <strong>reset</strong> to 0.<p>
 						
-						<p class="text_aboutImage">We take <strong>timestamps</strong> with day of week every time users arrived to the Result screen, and check if this user played previous day too and this is the first day in a day.</p>
+						<p>We take <strong>timestamps</strong> with days of the week every time users arrive to the Result screen. We also check if this user had played on the previous day too and if this is the first day in a day.</p>
 						
-						<p class="text_aboutImage">In order to <strong>flush</strong> Weekly Progress to all gray color at <strong>every Sunday 12:00 am</strong>,<br>
-						it checks the time difference between current time and the latest timestamp.</p>
+						<p>In order to <strong>clear</strong> the Weekly Progress, it checks the time difference between the current timestamp and the latest timestamp before changing the background color to gray <strong>every Sunday at 12:00am.</strong></p>
 					</section>
-					<section>
-						<div class="button github js_scroll">
-							<a href="https://github.com/aaakiii/JavaT" target="_blank"><i class="fa fa-github"></i>SEE ON Github</a>
-						</div>
-						<div class="googlePlay js_scroll">
-							<a href='https://play.google.com/store/apps/details?id=com.mina.aki.javaq&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
-						</div>
-					</section>
+					
 					<section id="deliverables" class="js_scroll">
 						<h2>My main deliverables</h2>
 						<ul>
@@ -223,6 +216,15 @@
 							<li>And so on...</li>
 						</ul>
 					</section>
+
+					<section>
+						<div class="button github js_scroll">
+							<a href="https://github.com/JavaQ-Android/JavaQ" target="_blank"><i class="fa fa-github"></i>SEE ON Github</a>
+						</div>
+						<div class="googlePlay js_scroll">
+							<a href='https://play.google.com/store/apps/details?id=com.mina.aki.javaq&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+						</div>
+					</section>
 				</article>
 
 			</div> <!-- end contents_wrapper -->
@@ -230,11 +232,12 @@
 
 			<section class="navi_works js_scroll">
 				<div class="row">
-					<!-- <div class="col-md-2 col-sm-3 col-xs-3 prev"><a href="cprojects/monoTalk"><i class="fa fa-chevron-left"></i>NEXT</a></div> -->
+					<div class="col-md-2 col-sm-3 col-xs-3 next"><a href="cprojects/monoTalk"><i class="fa fa-chevron-left"></i>NEXT</a></div>
+					<div class="col-md-2 col-sm-3 col-xs-3 prev"><a href="cprojects/monoTalk"></div>
 					<span class="col-sm-3 hidden-sm hidden-xs"></span>
 					<div class="col-md-2 col-sm-6 col-xs-6 backToHome"><a href="http://mina-fujisawa.com/#works">BACK TO LIST</a></div>
 					<span class="col-sm-3 hidden-sm hidden-xs"></span>
-					<div class="col-md-2 col-sm-3 col-xs-3 next" ><a href="http://mina-fujisawa.com/projects/javaT">PREV<i class="fa fa-chevron-right"></i></a></div>
+					<div class="col-md-2 col-sm-3 col-xs-3 prev" ><a href="http://mina-fujisawa.com/projects/javaT">PREV<i class="fa fa-chevron-right"></i></a></div>
 				</div>
 			</section>
 

@@ -82,10 +82,7 @@
 	margin-bottom: 0;
 }
 
-
-.description {
-
-}
+/* Description area */
 .description h1{
 	margin-bottom: 40px;
     letter-spacing: 0.2em;
@@ -109,6 +106,7 @@
 	}
 }
 
+/* Detail area */
 .project-detail {
 	text-align: center;
 }
@@ -124,6 +122,9 @@
 .project-detail section h2 {
 	font-size: 22px;
 }
+.project-detail section section:first-of-type {
+	margin-top: 60px;
+}
 
 .project-detail ul.screen_items li {
 	margin: 0 10px;
@@ -136,7 +137,7 @@
 	margin-bottom: 30px;
 }
 
-.project-detail .text_aboutImage {
+.project-detail p {
 	margin: 0 auto 25px auto;
 	max-width: 780px;
 	text-align: center;
@@ -239,18 +240,17 @@
 	    letter-spacing: 0.05em;
 	}
 }
-.navi_works .prev {
+.navi_works .next {
 	text-align: left;
 }
-.navi_works .prev i{
-	margin-right: 5px;
-}
+
 .navi_works .backToHome {
 	text-align: center;
 }
-.navi_works .next {
+.navi_works .prev {
 	text-align: right;
 }
+.navi_works .prev i,
 .navi_works .next i{
 	margin-left: 5px;
 }
