@@ -102,7 +102,7 @@
 						</div>
 						<div class="col-md-6">
 							<h1 class="js_scroll">Challenges</h1>
-							<p class="js_scroll">Making the logic of <a href="#section2">chain reaction</a> was the hardest part. For better UX, I used sleepForTimeInterval so that the user can tell clearly what's going on in the game.</p>
+							<p class="js_scroll">Making the logic of <a href="#chain">chain reaction</a> was the hardest part. For better UX, I used sleepForTimeInterval so that the user can tell clearly what's going on in the game.</p>
 						</div>
 					</div>
 				</section>
@@ -119,13 +119,13 @@
 								</li>
 							</ul>
 							
-							<p>Puyo(in my app : 💙) fall from the top of the screen in pairs. The piece can be <strong>moved, rotated and dropped</strong> by prompting the user. The piece falls until it reaches another Puyo or the bottom of the screen. </p>
+							<p><strong>Puyo</strong>(in my app : 💙) fall from the top of the screen in pairs. The piece can be <strong>moved, rotated and dropped</strong> by prompting the user. The piece falls until it reaches another Puyo or the bottom of the screen. </p>
 							<p>In my game, users can decide the position first, then drop them.</p>
 			
 						</section>
 
 						<section class="js_scroll">
-							<h2 id = "section2">#2 Pop / Chain</h2>
+							<h2 id = "chain">#2 Pop / Chain</h2>
 							<ul class="list-inline screen_items js_scroll">
 								<li class="screen_item">
 									<figure><img src="images/chain.gif"></figure>
@@ -138,12 +138,22 @@
 							<p><a href="https://en.wikipedia.org/wiki/Puyo_Puyo#Gameplay" target="_blank">Reference</a></p>
 							
 						</section>
+
+						<section class="js_scroll">
+							<h2>#3 Game over</h2>
+							<ul class="list-inline screen_items js_scroll">
+								<li class="screen_item">
+									<figure><img src="images/gameover.gif"></figure>
+								</li>
+							</ul>
+							<p>Once Puyo reaches the top of the screen, it's game over</p>
+						</section>
 					</section>
 
 					<section>
 						<h1 class="js_scroll">SCORING</h1>
 						<section class="js_scroll">
-							<p>The scoring is based on this formula, which looks like this:</p>
+							<p>The scoring is based on the formula:</p>
 							<ul class="list">
 								<li>The number of Puyo cleared in the chain</li>
 								<li>How many Puyo are in the group</li>
@@ -153,7 +163,7 @@
 							<div class="row screen_items">
 								<div class="col-sm-2 screen_item"></div>
 								<div class="col-sm-8 screen_item js_scroll">
-									<figure><img src="images/score.png"></figure>
+									<figure><img src="images/drop.png"></figure>
 								</div>
 								<div class="col-sm-2 screen_item"></div>
 							</div> <!-- end row -->
