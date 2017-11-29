@@ -127,11 +127,13 @@
 }
 
 .project-detail ul.screen_items li {
-	margin: 0 10px;
+	margin: 0 10px 40px 10px;
 }
 .project-detail ul.screen_items li img {
-	margin-bottom: 40px;
 	width: 240px;
+}
+#puyopuyo .project-detail ul.screen_items li img {
+	width: 140px;	
 }
 #solofood .project-detail div.screen_items div{
 	margin-bottom: 30px;
@@ -143,9 +145,10 @@
 	text-align: center;
 }
 
-#puyopuyo .project-detail ul {
+#puyopuyo .project-detail .list {
 	text-align: left;
-	width: 280px;
+	width: 290px;
+    margin: 0 auto 25px auto;
 }
 
 #javat .project-detail #deliverables ul {
@@ -187,6 +190,9 @@
 }
 .project-detail .googlePlay a img{
 	width: 240px;
+}
+.project-detail .appStore {
+	margin-top: 20px;
 }
 
 .project-detail .itunes a {
@@ -250,9 +256,12 @@
 .navi_works .prev {
 	text-align: right;
 }
-.navi_works .prev i,
+
 .navi_works .next i{
-	margin-left: 5px;
+	margin-right: 5px;
+}
+.navi_works .prev i {
+	margin-left: 5px;	
 }
 
 .arrow-left {
@@ -275,6 +284,11 @@
 #javaq table .badge_image img{
 	width: 30px;
 	margin: 0 auto;
+}
+
+/* Puyo Puyo */
+.command {
+	margin-top: 10px;
 }
 
 
