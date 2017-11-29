@@ -98,7 +98,7 @@
 					<div class="row description">
 						<div class="col-md-6">
 							<h1 class="js_scroll">ABOUT</h1>
-							<p class="js_scroll">Puyo Puyo is a series of tile-matching video games. I made my own command line version of the game.</p>
+							<p class="js_scroll">Puyo Puyo is a famous series of tile-matching video games in Japan. I made <strong>my own command line version</strong> of the game.</p>
 						</div>
 						<div class="col-md-6">
 							<h1 class="js_scroll">Challenges</h1>
@@ -111,30 +111,31 @@
 					<section>
 						<h1 class="js_scroll">RULE</h1>
 						<section class="js_scroll">
-							<h2>#1</h2>
-							<p>Puyo(in my app : 💙) fall from the top of the screen in pairs. The piece can be <strong>moved,rotated and dropped</strong> by prompting the user. The piece falls until it reaches another Puyo or the bottom of the screen. </p>
-							<p>In my game, user can decide the position first, then drop them.</p>
-							<div class="row screen_items">
-								<div class="col-sm-2 screen_item js_scroll"></div>
-								<div class="col-sm-8 screen_item js_scroll">
-									<figure><img src="images/drop.png"></figure>
-								</div>
-								<div class="col-sm-2 screen_item js_scroll"></div>
-							</div> <!-- end row -->
+							<h2>#1 Select / Drop</h2>
+							<ul class="list-inline screen_items js_scroll">
+								<li class="screen_item">
+									<figure><img src="images/drop.gif"></figure>
+									<small class="command">Command | J - Left | K - Right | L - Rotate | D - Drop</small>
+								</li>
+							</ul>
+							
+							<p>Puyo(in my app : 💙) fall from the top of the screen in pairs. The piece can be <strong>moved, rotated and dropped</strong> by prompting the user. The piece falls until it reaches another Puyo or the bottom of the screen. </p>
+							<p>In my game, users can decide the position first, then drop them.</p>
+			
 						</section>
 
 						<section class="js_scroll">
-							<h2 id = "section2">#2</h2>
-							<p>When four or more Puyo of the same color line up adjacent to each other, they disappear. Puyo connect horizontally or vertically. This is called <strong>Popping</strong>.</p>
-							<p>A Chain is made when falling Puyo cause a new group of Puyo to Pop, making a <strong>chain reaction</strong>(Following picture). </p>
+							<h2 id = "section2">#2 Pop / Chain</h2>
+							<ul class="list-inline screen_items js_scroll">
+								<li class="screen_item">
+									<figure><img src="images/chain.gif"></figure>
+								</li>
+							</ul>
+							<p>When four or more Puyo of the same color line up adjacent to each other, they disappear. (Puyo connect horizontally or vertically) <br>
+							This is called <strong>Popping</strong>.</p>
+							<p>A <strong>Chain</strong> is made when falling Puyo cause a new group of Puyo to Pop, making a <strong>chain reaction</strong>.<br>
+							The above gif animation shows the example of a 3 Chain.</p>
 							<p><a href="https://en.wikipedia.org/wiki/Puyo_Puyo#Gameplay" target="_blank">Reference</a></p>
-							<div class="row screen_items">
-								<div class="col-sm-2 screen_item js_scroll"></div>
-								<div class="col-sm-8 screen_item js_scroll">
-									<figure><img src="images/chain.png"></figure>
-								</div>
-								<div class="col-sm-2 screen_item js_scroll"></div>
-							</div>
 							
 						</section>
 					</section>
@@ -143,19 +144,19 @@
 						<h1 class="js_scroll">SCORING</h1>
 						<section class="js_scroll">
 							<p>The scoring is based on this formula, which looks like this:</p>
-							<ul class="text_aboutImage">
-								<li>Number of puyo cleared in the chain</li>
-								<li>How many puyo are in the group</li>
-								<li>Number of chain reaction</li>
+							<ul class="list">
+								<li>The number of Puyo cleared in the chain</li>
+								<li>How many Puyo are in the group</li>
+								<li>The number of chain reaction</li>
 							</ul>
 							<p>In a nutshell, the more you chain and the bigger the amount you clear per chain, the higher the score gets.</p>
 							<div class="row screen_items">
-								<div class="col-sm-2 screen_item js_scroll"></div>
+								<div class="col-sm-2 screen_item"></div>
 								<div class="col-sm-8 screen_item js_scroll">
 									<figure><img src="images/score.png"></figure>
 								</div>
-								<div class="col-sm-2 screen_item js_scroll"></div>
-							</div>
+								<div class="col-sm-2 screen_item"></div>
+							</div> <!-- end row -->
 						</section>
 					</section>
 
