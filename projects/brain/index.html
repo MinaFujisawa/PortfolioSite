@@ -1,191 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Brain training games</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Favicon -->
-<link rel="icon" href="http://mina-fujisawa.com/favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="http://mina-fujisawa.com/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon-precomposed" type="image/png" href="http://mina-fujisawa.com/apple-touch-icon-180x180.png" />
-
-<!-- CSS CDN -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
-<!-- Custom styles -->
-<link href="../../css/main.css" rel="stylesheet">
-<link href="../css/projects.css" rel="stylesheet">
-
-<!-- fonts CDN -->
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:400,600,700,800" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
-<script src="../../js/fontawesome.js"></script>
-
-<!-- JS -->
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.js"></script>
-<script>
-
-	</script>
-
+    <meta charset="UTF-8">
+    <title>Brain training games</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="http://mina-fujisawa.com/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://mina-fujisawa.com/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" type="image/png" href="http://mina-fujisawa.com/apple-touch-icon-180x180.png" />
+    <!-- CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Custom styles -->
+    <link href="../../css/main.css" rel="stylesheet">
+    <link href="../css/projects.css" rel="stylesheet">
+    <!-- fonts CDN -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:400,600,700,800" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+    <script src="../../js/fontawesome.js"></script>
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.js"></script>
+    <script>
+    </script>
 </head>
+
 <body>
-	<header>
-		<nav class="navbar navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<h1 class="navbar-brand page-scroll logo">
-						<a href="http://mina-fujisawa.com/" class="hover"><svg viewBox="0 0 183 177" width="100" xmlns="http://www.w3.org/2000/svg" class="hover"><path d="M183,0v177h-72V0H183z M0,0v177h48.7L48,83.9l31,31.6V47.7L29.5,0H0z"/></svg></a>
-					</h1>
-					<button type="button" id=btn_toggle class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span></span>
-					</button>
-				</div>
-
-			</div><!--  end container -->
-			<div class="navbar-collapse nav_menu" id="bs-example-navbar-collapse-1">
-				<nav>
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="http://mina-fujisawa.com/#about">ABOUT ME</a></li>
-						<li><a href="http://mina-fujisawa.com/#works">RECENT WORKS</a></li>
-						<li><a href="http://mina-fujisawa.com/#contact">CONTACT</a></li>
-					</ul>
-				</nav>
-				<ul class="list-inline nav_sns_links">
-					<li><a href="https://www.facebook.com/fujisawamina" target="_blank"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="https://github.com/MinaFujisawa" target="_blank"><i class="fa fa-github"></i><img src="" alt=""></a></li>
-					<li><a href="https://www.linkedin.com/in/mina-fujisawa-a73273107/" target="_blank"><i class="fa fa-linkedin"></i><img src="" alt=""></a></li>
-					<li><a href="https://www.instagram.com/miina3737/" target="_blank"><i class="fa fa-instagram"></i></a><img src="" alt=""></a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-
-
-	<section class="home_content">
-		<div class="container">
-			<h1>Brain training games</h1>
-			<div class="row">
-				<div class="col-sm-3 col-xs-6 home_info">
-					<h2>Service</h2>
-					<p>Android App</p>
-				</div>
-				<div class="col-sm-3 col-xs-6 home_info">
-					<h2>Language</h2>
-					<p>Java</p>
-				</div>
-				<div class="col-sm-3 col-xs-6 home_info">
-					<h2>Tool</h2>
-					<p>Android Studio</p>
-				</div>
-				<div class="col-sm-3 col-xs-6 home_info">
-					<h2>Date</h2>
-					<p>MAY 2017</p>
-				</div>
-
-			</div>
-		</div> <!-- end container -->
-	</section>
-
-	<div id="main_contents">
-		
-		<div class="container">
-			<div class="contents_wrapper">
-				<section>
-					<div class="row description">
-						<div class="col-md-6">
-							<h1 class="js_scroll">ABOUT</h1>
-							<p class="js_scroll">I made two brain training games, <strong>Low to High</strong> and <strong>Stroop Test</strong>. These were the very first apps that I made from scratch.</p>
-						</div>
-						<div class="col-md-6">
-							<h1 class="js_scroll">CHALLENGES</h1>
-							<p class="js_scroll">Since I was a beginner at Android app development, the main goal was to learn and get used to basic concepts. Furthermore, using CountDownTimer and switching layouts in the same activity were a little challenging.</p>
-						</div>
-					</div>
-				</section>
-
-				<article class="project-detail">
-					<section>
-						<h1 class="js_scroll">#1 Low to High</h1>
-						<section class="js_scroll margin-bottom_shorter">
-							<ul class="list-inline screen_items js_scroll">
-								<li class="screen_item">
-									<figure><img src="images/LowToHigh_trimed_gif.gif"></figure>
-								</li>
-							</ul>
-
-							<p>This app is a replication of one of the games from the video game  <a href ="http://brainage.nintendo.com/" target="_blank">Brain Age</a> by Nintendo.</p>
-							<p>Numbers appear in boxes for a short period of time. Afterwards, you must tap the boxes from <strong>lowest number to highest</strong> from <strong>memory.</strong></p>
-							<p>If you select the wrong number twice, you lose.</p>
-						</section>
-						<section>
-							<div class="button github js_scroll">
-								<a href="https://github.com/MinaFujisawa/Low_to_High" target="_blank"><i class="fa fa-github"></i>SEE ON Github</a>
-							</div>
-						</section>
-					</section>
-
-					<section>
-						<h1 class="js_scroll">#2 Stroop Test</h1>
-						<section class="js_scroll margin-bottom_shorter">
-							<ul class="list-inline screen_items js_scroll">
-								<li class="screen_item">
-									<figure><img src="images/stroop_test.png"></figure>
-								</li>
-							</ul>
-
-							<p>One of five words (blue, black, yellow, green and red) will appear on screen, one after another, each appearing in a random color (which may not match the color denoted by the word).</p>
-							<p>The player must choose the color of the word, rather than its semantic meaning (e.g., if the word BLUE appears in red, the player should select the word "RED").</p>
-						</section>
-						<section>
-							<div class="button github js_scroll">
-								<a href="https://github.com/MinaFujisawa/Stroop_Test" target="_blank"><i class="fa fa-github"></i>SEE ON Github</a>
-							</div>
-						</section>
-					</section>
-				</article>
-			</div> <!-- end contents_wrapper -->
-
-
-			<section class="navi_works js_scroll">
-				<div class="row">
-					<div class="col-md-2 col-sm-3 col-xs-3 next"><a href="http://mina-fujisawa.com/projects/javaT"><i class="fa fa-chevron-left"></i>NEXT</a></div>
-					<span class="col-sm-3 hidden-sm hidden-xs"></span>
-					<div class="col-md-2 col-sm-6 col-xs-6 backToHome"><a href="http://mina-fujisawa.com/#works">BACK TO LIST</a></div>
-					<span class="col-sm-3 hidden-sm hidden-xs"></span>
-					<div class="col-md-2 col-sm-3 col-xs-3 prev" ><a href="http://mina-fujisawa.com/projects/solofood">PREV<i class="fa fa-chevron-right"></i></a></div>
-				</div>
-			</section>
-
-		</div> <!-- end container -->
-	</section>
-
-</div> <!-- end #main_contents -->
-
-<footer class="js_scroll">
-	<ul class="list-inline sns_links">
-		<li><a href="https://www.facebook.com/fujisawamina" target="_blank"><i class="fa fa-facebook"></i></a></li>
-		<li><a href="https://github.com/MinaFujisawa" target="_blank"><i class="fa fa-github"></i></a></li>
-		<li><a href="https://www.linkedin.com/in/mina-fujisawa-a73273107/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-		<li><a href="https://www.instagram.com/miina3737/" target="_blank"><i class="fa fa-instagram"></i></a><img src="" alt=""></a></li>
-
-
-	</ul>
-	<small>&copy; MINA FUJISAWA 2017</small>
-</footer>
-
-</section>
-
-<!-- main -->
-<script type="text/javascript" src="../../js/main.js"></script>
-<script type="text/javascript" src="../../js/header.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!-- scroll -->
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
+    <header>
+        <nav class="navbar navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <h1 class="navbar-brand page-scroll logo">
+                        <a href="http://mina-fujisawa.com/" class="hover"><svg viewBox="0 0 183 177" width="100" xmlns="http://www.w3.org/2000/svg" class="hover">
+                                <path d="M183,0v177h-72V0H183z M0,0v177h48.7L48,83.9l31,31.6V47.7L29.5,0H0z" /></svg></a>
+                    </h1>
+                    <button type="button" id=btn_toggle class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span></span>
+                    </button>
+                </div>
+            </div><!--  end container -->
+            <div class="navbar-collapse nav_menu" id="bs-example-navbar-collapse-1">
+                <nav>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="http://mina-fujisawa.com/#about">ABOUT ME</a></li>
+                        <li><a href="http://mina-fujisawa.com/#works">RECENT WORKS</a></li>
+                    </ul>
+                </nav>
+                <ul class="list-inline nav_sns_links">
+                    <li><a href="https://twitter.com/michelle_377" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/fujisawamina" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/mina-fujisawa-a73273107/" target="_blank"><i class="fa fa-linkedin"></i><img src="" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/miina3737/" target="_blank"><i class="fa fa-instagram"></i></a><img src="" alt=""></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="home_content">
+        <div class="container">
+            <h1>Brain training games</h1>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6 home_info">
+                    <h2>Service</h2>
+                    <p>Android App</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 home_info">
+                    <h2>Language</h2>
+                    <p>Java</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 home_info">
+                    <h2>Tool</h2>
+                    <p>Android Studio</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 home_info">
+                    <h2>Date</h2>
+                    <p>MAY 2017</p>
+                </div>
+            </div>
+        </div> <!-- end container -->
+    </section>
+    <div id="main_contents">
+        <div class="container">
+            <div class="contents_wrapper">
+                <section>
+                    <div class="row description">
+                        <div class="col-md-6">
+                            <h1 class="js_scroll">ABOUT</h1>
+                            <p class="js_scroll">I made two brain training games, <strong>Low to High</strong> and <strong>Stroop Test</strong>. These were the very first apps that I made from scratch.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h1 class="js_scroll">CHALLENGES</h1>
+                            <p class="js_scroll">Since I was a beginner at Android app development, the main goal was to learn and get used to basic concepts. Furthermore, using CountDownTimer and switching layouts in the same activity were a little challenging.</p>
+                        </div>
+                    </div>
+                </section>
+                <article class="project-detail">
+                    <section>
+                        <h1 class="js_scroll">#1 Low to High</h1>
+                        <section class="js_scroll margin-bottom_shorter">
+                            <ul class="list-inline screen_items js_scroll">
+                                <li class="screen_item">
+                                    <figure><img src="images/LowToHigh_trimed_gif.gif"></figure>
+                                </li>
+                            </ul>
+                            <p>This app is a replication of one of the games from the video game <a href="http://brainage.nintendo.com/" target="_blank">Brain Age</a> by Nintendo.</p>
+                            <p>Numbers appear in boxes for a short period of time. Afterwards, you must tap the boxes from <strong>lowest number to highest</strong> from <strong>memory.</strong></p>
+                            <p>If you select the wrong number twice, you lose.</p>
+                        </section>
+                        <section>
+                            <div class="button github js_scroll">
+                                <a href="https://github.com/MinaFujisawa/Low_to_High" target="_blank"><i class="fa fa-github"></i>SEE ON Github</a>
+                            </div>
+                        </section>
+                    </section>
+                    <section>
+                        <h1 class="js_scroll">#2 Stroop Test</h1>
+                        <section class="js_scroll margin-bottom_shorter">
+                            <ul class="list-inline screen_items js_scroll">
+                                <li class="screen_item">
+                                    <figure><img src="images/stroop_test.png"></figure>
+                                </li>
+                            </ul>
+                            <p>One of five words (blue, black, yellow, green and red) will appear on screen, one after another, each appearing in a random color (which may not match the color denoted by the word).</p>
+                            <p>The player must choose the color of the word, rather than its semantic meaning (e.g., if the word BLUE appears in red, the player should select the word "RED").</p>
+                        </section>
+                        <section>
+                            <div class="button github js_scroll">
+                                <a href="https://github.com/MinaFujisawa/Stroop_Test" target="_blank"><i class="fa fa-github"></i>SEE ON Github</a>
+                            </div>
+                        </section>
+                    </section>
+                </article>
+            </div> <!-- end contents_wrapper -->
+            <section class="navi_works js_scroll">
+                <div class="row">
+                    <div class="col-md-2 col-sm-3 col-xs-3 next"><a href="http://mina-fujisawa.com/projects/javaT"><i class="fa fa-chevron-left"></i>NEXT</a></div>
+                    <span class="col-sm-3 hidden-sm hidden-xs"></span>
+                    <div class="col-md-2 col-sm-6 col-xs-6 backToHome"><a href="http://mina-fujisawa.com/#works">BACK TO LIST</a></div>
+                    <span class="col-sm-3 hidden-sm hidden-xs"></span>
+                    <div class="col-md-2 col-sm-3 col-xs-3 prev"  ><a href="http://mina-fujisawa.com/projects/solofood">PREV<i class="fa fa-chevron-right"></i></a></div>
+                </div>
+            </section>
+        </div> <!-- end container -->
+        </section>
+    </div> <!-- end #main_contents -->
+    <footer class="js_scroll">
+        <ul class="list-inline sns_links">
+            <li><a href="https://twitter.com/michelle_377" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/fujisawamina" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/mina-fujisawa-a73273107/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/miina3737/" target="_blank"><i class="fa fa-instagram"></i></a><img src="" alt=""></a></li>
+        </ul>
+        <small>&copy; MINA FUJISAWA 2020</small>
+    </footer>
+    </section>
+    <!-- main -->
+    <script type="text/javascript" src="../../js/main.js"></script>
+    <script type="text/javascript" src="../../js/header.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- scroll -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </body>
+
 </html>

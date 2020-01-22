@@ -145,27 +145,31 @@
 	text-align: center;
 }
 
+
+/* list */
 #puyopuyo .project-detail .list {
 	text-align: left;
-	width: 290px;
+	width: 330px;
+	max-width: 100%;
     margin: 0 auto 25px auto;
 }
 
 #javat .project-detail #deliverables ul {
 	text-align: left;
     width: 480px;
+    max-width: 100%;
     margin: 0 auto;
 }
 #javaq .project-detail #deliverables ul {
 	text-align: left;
-    width: 390px;
+    width: 400px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
-/*.project-detail .button {
-	margin: 0 auto;
-}*/
 
+
+/* buttons */
 .project-detail .button a{
 	display: inline-block;
     width: 18rem;
@@ -178,9 +182,6 @@
     -moz-box-shadow: 0 11px 25px -10px #f2f2f2;
     -webkit-box-shadow: 0 11px 25px -10px #f2f2f2;
 }
-
-
-/* buttons */
 .project-detail .github a {
 	background: #24292e;
 	color: #fff;

@@ -1,156 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>JavaQ</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Favicon -->
-<link rel="icon" href="http://mina-fujisawa.com/favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="http://mina-fujisawa.com/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon-precomposed" type="image/png" href="http://mina-fujisawa.com/apple-touch-icon-180x180.png" />
-
-<!-- CSS CDN -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
-<!-- Custom styles -->
-<link href="../../css/main.css" rel="stylesheet">
-<link href="../css/projects.css" rel="stylesheet">
-
-<!-- fonts CDN -->
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:400,600,700,800" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
-<script src="../../js/fontawesome.js"></script>
-
-<!-- JS -->
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.js"></script>
-<script>
-
-</script>
-
+    <meta charset="UTF-8">
+    <title>JavaQ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="http://mina-fujisawa.com/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://mina-fujisawa.com/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" type="image/png" href="http://mina-fujisawa.com/apple-touch-icon-180x180.png" />
+    <!-- CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Custom styles -->
+    <link href="../../css/main.css" rel="stylesheet">
+    <link href="../css/projects.css" rel="stylesheet">
+    <!-- fonts CDN -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:400,600,700,800" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+    <script src="../../js/fontawesome.js"></script>
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.js"></script>
+    <script>
+    </script>
 </head>
+
 <body id="javaq">
-	<header>
-		<nav class="navbar navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<h1 class="navbar-brand page-scroll logo">
-						<a href="http://mina-fujisawa.com/" class="hover"><svg viewBox="0 0 183 177" width="100" xmlns="http://www.w3.org/2000/svg" class="hover"><path d="M183,0v177h-72V0H183z M0,0v177h48.7L48,83.9l31,31.6V47.7L29.5,0H0z"/></svg></a>
-					</h1>
-					<button type="button" id=btn_toggle class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span></span>
-					</button>
-				</div>
-
-			</div><!--  end container -->
-			<div class="navbar-collapse nav_menu" id="bs-example-navbar-collapse-1">
-				<nav>
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="http://mina-fujisawa.com/#about">ABOUT ME</a></li>
-						<li><a href="http://mina-fujisawa.com/#works">RECENT WORKS</a></li>
-						<li><a href="http://mina-fujisawa.com/#contact">CONTACT</a></li>
-					</ul>
-				</nav>
-				<ul class="list-inline nav_sns_links">
-					<li><a href="https://www.facebook.com/fujisawamina" target="_blank"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="https://github.com/MinaFujisawa" target="_blank"><i class="fa fa-github"></i><img src="" alt=""></a></li>
-					<li><a href="https://www.linkedin.com/in/mina-fujisawa-a73273107/" target="_blank"><i class="fa fa-linkedin"></i><img src="" alt=""></a></li>
-					<li><a href="https://www.instagram.com/miina3737/" target="_blank"><i class="fa fa-instagram"></i></a><img src="" alt=""></a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-
-
-	<section class="home_content">
-		<div class="container">
-			<h1>JavaQ</h1>
-			<div class="row">
-				<div class="col-sm-3 col-xs-6 home_info">
-					<h2>Service</h2>
-					<p>Android App</p>
-				</div>
-				<div class="col-sm-3 col-xs-6 home_info">
-					<h2>Language</h2>
-					<p>Java</p>
-				</div>
-				<div class="col-sm-3 col-xs-6 home_info">
-					<h2>Tool</h2>
-					<p>Android Studio</p>
-				</div>
-				<div class="col-sm-3 col-xs-6 home_info">
-					<h2>Date</h2>
-					<p>JUN 2017</p>
-				</div>
-
-			</div>
-		</div> <!-- end container -->
-	</section>
-
-	<div id="main_contents">
-		
-		<div class="container">
-			<div class="contents_wrapper">
-				<section>
-					<div class="row description">
-						<div class="col-md-6">
-							<h1 class="js_scroll">ABOUT</h1>
-							<p class="js_scroll">JavaQ is an app where users can <strong>learn Java</strong> through some <strong>quizzes</strong>.<br>
-							This app is available on <a = href ="https://play.google.com/store/apps/details?id=com.mina.aki.javaq&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank">Google play.</a></p>
-							<small class="js_scroll">This is a team project with one of my classmates.<a href="#deliverables">See my deliverables</a> for this project.</small>
-						</div>
-						<div class="col-md-6">
-							<h1 class="js_scroll">CHALLENGES</h1>
-							<p class="js_scroll">Thinking about the logic in order to achieve <a href="#progress">Progress</strong> was quite hard for us.</p>
-						</div>
-					</div>
-				</section>
-
-				<article class="project-detail">
-					<section class="js_scroll">
-						<h1>Quiz Sections</h1>
-						<ul class="list-inline screen_items js_scroll">
-							<li class="screen_item">
-								<figure><img src="images/section.png"></figure>
-							</li>
-						</ul>
-						
-						<p>Users can easily know which section is done by earning the <a href="#results">badges.</a><br>
-						Thanks to <strong>Shared preferences</strong> feature, users won't lose their badges even after closing the app.</p>
-						
-					</section>
-
-					<section class="js_scroll">
-						<h1>Quiz</h1>
-						<ul class="list-inline screen_items js_scroll">
-							<li class="screen_item">
-								<figure><img src="images/quiz_01.png"></figure>
-							</li>
-							<li class="screen_item">
-								<figure><img src="images/quiz_02.png"></figure>
-							</li>
-							<li class="screen_item">
-								<figure><img src="images/quiz_03.png"></figure>
-							</li>
-						</ul>
-						<p>The number of progress circles will be changed by each of section.<br>
-						The order of the quizzes is random.</p>
-
-						
-					</section>
-
-					<section class="js_scroll" id = "results">
-						<h1>Results</h1>
-						<ul class="list-inline screen_items js_scroll">
-							<li class="screen_item">
-								<figure><img src="images/result.png"></figure>
-							</li>
-						</ul>
-						<p>Badge (crown symbol) ,  comments and background colors have some variety based on the score.</p>
-						<table class="table table-bordered js_scroll"">
+    <header>
+        <nav class="navbar navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <h1 class="navbar-brand page-scroll logo">
+                        <a href="http://mina-fujisawa.com/" class="hover"><svg viewBox="0 0 183 177" width="100" xmlns="http://www.w3.org/2000/svg" class="hover">
+                                <path d="M183,0v177h-72V0H183z M0,0v177h48.7L48,83.9l31,31.6V47.7L29.5,0H0z" /></svg></a>
+                    </h1>
+                    <button type="button" id=btn_toggle class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span></span>
+                    </button>
+                </div>
+            </div><!--  end container -->
+            <div class="navbar-collapse nav_menu" id="bs-example-navbar-collapse-1">
+                <nav>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="http://mina-fujisawa.com/#about">ABOUT ME</a></li>
+                        <li><a href="http://mina-fujisawa.com/#works">RECENT WORKS</a></li>
+                    </ul>
+                </nav>
+                <ul class="list-inline nav_sns_links">
+                    <li><a href="https://twitter.com/michelle_377" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/fujisawamina" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/mina-fujisawa-a73273107/" target="_blank"><i class="fa fa-linkedin"></i><img src="" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/miina3737/" target="_blank"><i class="fa fa-instagram"></i></a><img src="" alt=""></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="home_content">
+        <div class="container">
+            <h1>JavaQ</h1>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6 home_info">
+                    <h2>Service</h2>
+                    <p>Android App</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 home_info">
+                    <h2>Language</h2>
+                    <p>Java</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 home_info">
+                    <h2>Tool</h2>
+                    <p>Android Studio</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 home_info">
+                    <h2>Date</h2>
+                    <p>JUN 2017</p>
+                </div>
+            </div>
+        </div> <!-- end container -->
+    </section>
+    <div id="main_contents">
+        <div class="container">
+            <div class="contents_wrapper">
+                <section>
+                    <div class="row description">
+                        <div class="col-md-6">
+                            <h1 class="js_scroll">ABOUT</h1>
+                            <p class="js_scroll">JavaQ is an app where users can <strong>learn Java</strong> through some <strong>quizzes</strong>.<br>
+                                This app is available on <a=href="https://play.google.com/store/apps/details?id=com.mina.aki.javaq&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank">Google play.</a></p>
+                            <small class="js_scroll">This is a team project with one of my classmates.<a href="#deliverables">See my deliverables</a> for this project.</small>
+                        </div>
+                        <div class="col-md-6">
+                            <h1 class="js_scroll">CHALLENGES</h1>
+                            <p class="js_scroll">Thinking about the logic in order to achieve <a href="#progress">Progress</a> was quite hard for us.</p>
+                        </div>
+                    </div>
+                </section>
+                <article class="project-detail">
+                    <section class="js_scroll">
+                        <h1>Quiz Sections</h1>
+                        <ul class="list-inline screen_items js_scroll">
+                            <li class="screen_item">
+                                <figure><img src="images/section.png"></figure>
+                            </li>
+                        </ul>
+                        <p>Users can easily know which section is done by earning the <a href="#results">badges.</a><br>
+                            Thanks to <strong>Shared preferences</strong> feature, users won't lose their badges even after closing the app.</p>
+                    </section>
+                    <section class="js_scroll">
+                        <h1>Quiz</h1>
+                        <ul class="list-inline screen_items js_scroll">
+                            <li class="screen_item">
+                                <figure><img src="images/quiz_01.png"></figure>
+                            </li>
+                            <li class="screen_item">
+                                <figure><img src="images/quiz_02.png"></figure>
+                            </li>
+                            <li class="screen_item">
+                                <figure><img src="images/quiz_03.png"></figure>
+                            </li>
+                        </ul>
+                        <p>The number of progress circles will be changed by each of section.<br>
+                            The order of the quizzes is random.</p>
+                    </section>
+                    <section class="js_scroll" id="results">
+                        <h1>Results</h1>
+                        <ul class="list-inline screen_items js_scroll">
+                            <li class="screen_item">
+                                <figure><img src="images/result.png"></figure>
+                            </li>
+                        </ul>
+                        <p>Badge (crown symbol) , comments and background colors have some variety based on the score.</p>
+                        <table class="table table-bordered js_scroll"">
 							<thead>
 								<tr>
 									<th>Score</th>
@@ -161,110 +142,104 @@
 							</thead>
 							<tbody>
 								<tr>
-									<th scope="row">90 - 100%</th>
-									<td>Fantastic!</td>
-									<td><figure  class="badge_image"><img src="images/ic_badge_gold.png"></figure></td>
-									<td>Green</td>
-								</tr>
-								<tr>
-									<th scope="row">80 - 89%</th>
-									<td>Great!</td>
-									<td><figure  class="badge_image"><img src="images/ic_badge_silver.png"></figure></td>
-									<td>Green</td>
-								</tr>
-								<tr>
-									<th scope="row">70 - 79%</th>
-									<td>Good!</td>
-									<td><figure  class="badge_image"><img src="images/ic_badge_copper.png"></figure></td>
-									<td>Green</td>
-								</tr>
-								<tr>
-									<th scope="row">0 - 69%</th>
-									<td>Failed!</td>
-									<td><figure  class="badge_image"><img src="images/ic_badge_none.png"></figure></td>
-									<td>Gray</td>
-								</tr>
-							</tbody>
-						</table>
-					</section>
-
-					<section>
-						<h1 class="js_scroll" id ="progress">Progress</h1>
-						<ul class="list-inline screen_items js_scroll">
-							<li class="screen_item">
-								<figure><img src="images/progress.png"></figure>
-							</li>
-						</ul>
-						<p>It shows how often users did quizzes. Once users reached the Results screen, we count it as the user completed the quiz.<br>
-						If the user doesn't play the quiz in a day, the Active streak will <strong>reset</strong> to 0.<p>
-						
-						<p>We take <strong>timestamps</strong> with days of the week every time users arrive to the Results screen. We also check if this user had played on the previous day too and if this is the first day in a day.</p>
-						
-						<p>In order to <strong>clear</strong> the Weekly Progress, it checks the time difference between the current timestamp and the latest timestamp.</strong></p>
-					</section>
-					
-					<section id="deliverables" class="js_scroll">
-						<h2>My main deliverables</h2>
-						<ul>
-							<li>UX / UI (prototype, icons, logos, layouts and styles)</li>
-							<li>Saving data to Shared Preferences</li>
-							<li>Active streak and Weekly progress</li>
-							<li>Badges</li>
-							<li>Quiz Section page</li>
-							<li>Drawer menu</li>
-							<li>Google play console</li>
-							<li>And so on...</li>
-						</ul>
-					</section>
-
-					<section>
-						<div class="button github js_scroll">
-							<a href="https://github.com/JavaQ-Android/JavaQ" target="_blank"><i class="fa fa-github"></i>SEE ON Github</a>
-						</div>
-						<div class="googlePlay js_scroll">
-							<a href='https://play.google.com/store/apps/details?id=com.mina.aki.javaq&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
-						</div>
-					</section>
-				</article>
-
-			</div> <!-- end contents_wrapper -->
-
-
-			<section class="navi_works js_scroll">
-				<div class="row">
-					<div class="col-md-2 col-sm-3 col-xs-3 next"><a href="http://mina-fujisawa.com/projects/monoTalk"><i class="fa fa-chevron-left"></i>NEXT</a></div>
-					<span class="col-sm-3 hidden-sm hidden-xs"></span>
-					<div class="col-md-2 col-sm-6 col-xs-6 backToHome"><a href="http://mina-fujisawa.com/#works">BACK TO LIST</a></div>
-					<span class="col-sm-3 hidden-sm hidden-xs"></span>
-					<div class="col-md-2 col-sm-3 col-xs-3 prev" ><a href="http://mina-fujisawa.com/projects/javaT">PREV<i class="fa fa-chevron-right"></i></a></div>
-				</div>
-			</section>
-
-		</div> <!-- end container -->
-	</section>
-</div> <!-- end #main_contents -->
-
-<footer class="js_scroll">
-	<ul class="list-inline sns_links">
-		<li><a href="https://www.facebook.com/fujisawamina" target="_blank"><i class="fa fa-facebook"></i></a></li>
-		<li><a href="https://github.com/MinaFujisawa" target="_blank"><i class="fa fa-github"></i></a></li>
-		<li><a href="https://www.linkedin.com/in/mina-fujisawa-a73273107/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-		<li><a href="https://www.instagram.com/miina3737/" target="_blank"><i class="fa fa-instagram"></i></a><img src="" alt=""></a></li>
-
-
-	</ul>
-	<small>&copy; MINA FUJISAWA 2017</small>
-</footer>
-
-</section>
-
-<!-- main -->
-<script type="text/javascript" src="../../js/main.js"></script>
-<script type="text/javascript" src="../../js/header.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!-- scroll -->
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
+									<th scope=" row">90 - 100%</th>
+                            <td>Fantastic!</td>
+                            <td>
+                                <figure class="badge_image"><img src="images/ic_badge_gold.png"></figure>
+                            </td>
+                            <td>Green</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">80 - 89%</th>
+                                <td>Great!</td>
+                                <td>
+                                    <figure class="badge_image"><img src="images/ic_badge_silver.png"></figure>
+                                </td>
+                                <td>Green</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">70 - 79%</th>
+                                <td>Good!</td>
+                                <td>
+                                    <figure class="badge_image"><img src="images/ic_badge_copper.png"></figure>
+                                </td>
+                                <td>Green</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">0 - 69%</th>
+                                <td>Failed!</td>
+                                <td>
+                                    <figure class="badge_image"><img src="images/ic_badge_none.png"></figure>
+                                </td>
+                                <td>Gray</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section>
+                        <h1 class="js_scroll" id="progress">Progress</h1>
+                        <ul class="list-inline screen_items js_scroll">
+                            <li class="screen_item">
+                                <figure><img src="images/progress.png"></figure>
+                            </li>
+                        </ul>
+                        <p>It shows how often users did quizzes. Once users reached the Results screen, we count it as the user completed the quiz.<br>
+                            If the user doesn't play the quiz in a day, the Active streak will <strong>reset</strong> to 0.<p>
+                                <p>We take <strong>timestamps</strong> with days of the week every time users arrive to the Results screen. We also check if this user had played on the previous day too and if this is the first day in a day.</p>
+                                <p>In order to <strong>clear</strong> the Weekly Progress, it checks the time difference between the current timestamp and the latest timestamp.</strong></p>
+                    </section>
+                    <section id="deliverables" class="js_scroll">
+                        <h2>My main deliverables</h2>
+                        <ul>
+                            <li>UX / UI (prototype, icons, logos, layouts and styles)</li>
+                            <li>Saving data to Shared Preferences</li>
+                            <li>Active streak and Weekly progress</li>
+                            <li>Badges</li>
+                            <li>Quiz Section page</li>
+                            <li>Drawer menu</li>
+                            <li>Google play console</li>
+                            <li>And so on...</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <div class="button github js_scroll">
+                            <a href="https://github.com/JavaQ-Android/JavaQ" target="_blank"><i class="fa fa-github"></i>SEE ON Github</a>
+                        </div>
+                        <div class="googlePlay js_scroll">
+                            <a href='https://play.google.com/store/apps/details?id=com.mina.aki.javaq&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' /></a>
+                        </div>
+                    </section>
+                </article>
+            </div> <!-- end contents_wrapper -->
+            <section class="navi_works js_scroll">
+                <div class="row">
+                    <div class="col-md-2 col-sm-3 col-xs-3 next"><a href="http://mina-fujisawa.com/projects/monoTalk"><i class="fa fa-chevron-left"></i>NEXT</a></div>
+                    <span class="col-sm-3 hidden-sm hidden-xs"></span>
+                    <div class="col-md-2 col-sm-6 col-xs-6 backToHome"><a href="http://mina-fujisawa.com/#works">BACK TO LIST</a></div>
+                    <span class="col-sm-3 hidden-sm hidden-xs"></span>
+                    <div class="col-md-2 col-sm-3 col-xs-3 prev"  ><a href="http://mina-fujisawa.com/projects/javaT">PREV<i class="fa fa-chevron-right"></i></a></div>
+                </div>
+            </section>
+        </div> <!-- end container -->
+        </section>
+    </div> <!-- end #main_contents -->
+    <footer class="js_scroll">
+        <ul class="list-inline sns_links">
+            <li><a href="https://twitter.com/michelle_377" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/fujisawamina" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/mina-fujisawa-a73273107/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/miina3737/" target="_blank"><i class="fa fa-instagram"></i></a><img src="" alt=""></a></li>
+        </ul>
+        <small>&copy; MINA FUJISAWA 2020</small>
+    </footer>
+    </section>
+    <!-- main -->
+    <script type="text/javascript" src="../../js/main.js"></script>
+    <script type="text/javascript" src="../../js/header.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- scroll -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </body>
+
 </html>
